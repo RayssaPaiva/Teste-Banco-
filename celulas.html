@@ -1,0 +1,62 @@
+# TesteTuringItau
+Teste para a vaga Itáu
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/celulas.css" />
+    <title>Banco</title>
+  
+  </head>
+
+  <body >
+    <div class="container">
+      <div class="header">
+        <h2>Quantidade de células</h2>
+      </div>
+      
+      <form name="celula"  method="post" id="form" class="form">
+        <div class="form-geral">
+            <img src="img/2reais.png" />
+            <input type="number" name="dois" id="n2" />
+        </div>
+
+        <div class="form-geral">
+          <img src="img/cinco.png" >
+          <input type="number" name="cinco" id="n5" />
+        </div>
+
+      <div class="form-geral">
+        <img src="img/dez.png" />
+        <input type="number" name="dez" id="n10" />
+      </div>
+
+      <div class="form-geral">
+        <img src="img/vinte.png" />
+        <input type="number" name="vinte" id="n20" />
+      </div>
+
+      <div class="form-geral">
+        <img src="img/cinquenta.png" />
+        <input type="number" name="cinquenta" id="n50" />
+      </div>
+
+      <div class="form-geral">
+        <img src="img/cem.png" />
+        <input type="number" name="cem" id="n100" />
+      </div>
+
+      <div id="botão" >
+        <a name="Enviar"></a>
+        <button class="botao" id="botao" type="button" onclick="return enviar()" value="Enviar">Enviar</button>
+        </div>
+
+      </form>
+    </div>
+    
+    <script src="script/celulas.js"></script>
+  </body>
+
+</html>
