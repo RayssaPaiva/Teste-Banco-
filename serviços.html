@@ -1,0 +1,35 @@
+# TesteTuringItau
+Teste para a vaga Itáu
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/styleCadastro.css" />
+    <title>Banco</title>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <h2>Serviços</h2>
+        <h2 id="ValorEmConta"></h2>
+      </div>
+      
+      <form name="Serviços"  method="post" id="form" class="form">
+       
+        <div class="form-geral">
+            <a name="1-Saque"></a>
+            <button class="botao" id="Saque" type="submit" name="saque" id="saque" onclick="SalvaOperacao('saque')" value="Saque"><a href="./serviço2.html" class="link">1-Saque</a></button>
+
+            <a name="2-Depósito"></a>
+            <button class="botao"  type="button" name="deposito" id="deposito" value="Deposito" onclick="SalvaOperacao('deposito')"><a href="./serviço2.html" class="link">2-Depósito</a></button>
+            <button class="botao" type="button" name="sair" id="sair" onclick="sairdaTela()" >3-Sair</button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="script/servico.js"></script> 
+</html>
