@@ -1,0 +1,47 @@
+# TesteTuringItau
+Teste para a vaga Itáu
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/styleCadastro.css" />
+   
+    <title>Banco</title>
+   <script src="script/script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        
+        <h2>Banco JA</h2>
+        <img src="img/casa.png" />
+      </div>
+      
+      <form name="bancoJa"  method="post" id="form" class="form">
+        <div class="form-geral">
+          <label for="username">Usuário:</label>
+          <input type="text" name=nome id="username" required/>
+        </div>
+
+        <div class="form-geral">
+          <label for="senha">Senha:</label>
+          <input type="password" name="senha" id="senha" value="" required/>
+        </div>
+
+
+        <div id="botão" >
+          <a name="Entrar"></a>
+          <button class="botao" id="Enviar" type="button" onclick="return validar()" value="Entrar">Entrar</button>
+          <input class="botao" id="Limpar" type="reset" value="Limpar" />
+        </div>
+
+      </form>
+    </div>
+
+
+   
+  </body>
+</html>
